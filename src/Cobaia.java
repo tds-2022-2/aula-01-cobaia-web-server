@@ -70,7 +70,9 @@ class CobaiaHTTPServer {
 					if ("/oi".equals(partes[1])) {
 
 						System.out.println("Enviando oi ...");
-
+						// HTTP/VERSION STATUS_CODE STATUS_TEXT
+						// HEADERS
+						// PAYLOAD
 						printer.println("HTTP/1.1 200 OK");
 						printer.println("Content-Type: text/html; charset=utf-8");
 						printer.println("Server: Cobaia 0.0.1");
